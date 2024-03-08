@@ -1,6 +1,6 @@
 class Solution {
 public:
-//using priority_queue
+//using priority_queue logic
     bool isNStraightHand(vector<int>& hand, int groupSize) {
         if ((hand.size() % groupSize) != 0) return false;
         priority_queue<int, vector<int>, greater<int>> pq;
